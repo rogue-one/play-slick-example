@@ -3,8 +3,8 @@
 # ~~~~
 
 # An example controller showing how to write asynchronous code
-GET     /supplier/:id                 controllers.SuppliersController.supplier(id : Long)
-POST    /supplier                    controllers.SuppliersController.insertSupplier
+GET     /supplier/add                controllers.EmployeeController.addEmployee
+GET     /supplier                    controllers.EmployeeController.listEmployee
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
